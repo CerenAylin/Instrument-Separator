@@ -14,7 +14,7 @@ app = ctk.CTk()     # Main application window
 app.geometry("600x650")         
 app.title("InstSep")     
 
-icon_path = "icon.ico"          # Add icon
+icon_path = "assets/icon.ico"          # Add icon
 if os.path.exists(icon_path):   
     app.iconbitmap(icon_path)           
 else:
